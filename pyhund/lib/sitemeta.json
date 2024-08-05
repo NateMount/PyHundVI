@@ -1,0 +1,9 @@
+{
+    "github": {
+        "url": "https://www.github.com/{}",
+        "verification-method": "status",
+        "verification-target": 200,
+        "cookies": {},
+        "headers": {}
+    }
+}
