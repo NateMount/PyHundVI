@@ -1,9 +1,2260 @@
 {
+    "rive": {
+      "url": "https://rive.app/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "7cups": {
+      "url": "https://www.7cups.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "9gag": {
+      "url": "https://www.9gag.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "about.me": {
+      "url": "https://about.me/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "academia.edu": {
+      "url": "https://independent.academia.edu/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "airliners": {
+      "url": "https://www.airliners.net/user/{}/profile",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "athlinks": {
+      "url": "https://blog.athlinks.com/author/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "akniga": {
+      "url": "https://akniga.org/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "alik.cz": {
+      "url": "https://www.alik.cz/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "allmylinks": {
+      "url": "https://allmylinks.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "aminoapp": {
+      "url": "https://aminoapps.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "anilist": {
+      "url": "https://anilist.co/user/{}/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "apple developer": {
+      "url": "https://developer.apple.com/forums/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "apple discussions": {
+      "url": "https://discussions.apple.com/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "archive.org": {
+      "url": "https://archive.org/details/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "arduino": {
+      "url": "https://create.arduino.cc/projecthub/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "artstation": {
+      "url": "https://www.artstation.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "asciinema": {
+      "url": "https://asciinema.org/~{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "askfm": {
+      "url": "https://ask.fm/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "audio jungle": {
+      "url": "https://audiojungle.net/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "authorstream": {
+      "url": "http://www.authorstream.com/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "avizo": {
+      "url": "https://www.avizo.cz/{}/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "babyblogru": {
+      "url": "https://www.babyblog.ru/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "babyru": {
+      "url": "https://www.baby.ru/u/{}/",
+      "verification-method": "status",
+      "verification-target": "403",
+      "headers": {},
+      "cookies": {}
+    },
+    "bandcamp": {
+      "url": "https://www.bandcamp.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "bebee": {
+      "url": "https://br.bebee.com/bee/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "behance": {
+      "url": "https://www.behance.net/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "bitbucket": {
+      "url": "https://bitbucket.org/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "bitcoinforum": {
+      "url": "https://bitcoinforum.com/profile/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "bitwarden forum": {
+      "url": "https://community.bitwarden.com/u/{}/summary",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "bodybuilding": {
+      "url": "https://bodyspace.bodybuilding.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "bookcrossing": {
+      "url": "https://www.bookcrossing.com/mybookshelf/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "booth": {
+      "url": "https://{}.booth.pm/",
+      "verification-method": "url",
+      "verification-target": "https://booth.pm",
+      "headers": {},
+      "cookies": {}
+    },
+    "buymeacoffee": {
+      "url": "https://buymeacoff.ee/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "buzzfeed": {
+      "url": "https://buzzfeed.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "caffine": {
+      "url": "https://www.caffeine.tv/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "cashapp": {
+      "url": "https://cash.app/${}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "capfriendly": {
+      "url": "https://www.capfriendly.com/users/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "carbonmade": {
+      "url": "https://{}.carbonmade.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "career.habr": {
+      "url": "https://career.habr.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "championat": {
+      "url": "https://www.championat.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "chaos.social": {
+      "url": "https://chaos.social/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "chatujme.cz": {
+      "url": "https://profil.chatujme.cz/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "chess": {
+      "url": "https://www.chess.com/member/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "cloudflarecommunity": {
+      "url": "https://community.cloudflare.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "cnet": {
+      "url": "https://www.cnet.com/profiles/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "codecademy": {
+      "url": "https://www.codecademy.com/profiles/{}",
+      "verification-method": "url",
+      "verification-target": "You+must+be+logged+in+to+access+this+page",
+      "headers": {},
+      "cookies": {}
+    },
+    "codechef": {
+      "url": "https://www.codechef.com/users/{}",
+      "verification-method": "url",
+      "verification-target": "/users/",
+      "headers": {},
+      "cookies": {}
+    },
+    "codepen": {
+      "url": "https://codepen.io/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "codewars": {
+      "url": "https://www.codewars.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "coil": {
+      "url": "https://coil.com/u/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "colourlovers": {
+      "url": "https://www.colourlovers.com/lover/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "contently": {
+      "url": "https://{}.contently.com/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "coroflot": {
+      "url": "https://www.coroflot.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "couchsurfing": {
+      "url": "https://www.couchsurfing.com/people/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "countable": {
+      "url": "https://www.countable.us/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "cracked": {
+      "url": "https://www.cracked.com/members/{}/",
+      "verification-method": "url",
+      "verification-target": "/members/",
+      "headers": {},
+      "cookies": {}
+    },
+    "crevado": {
+      "url": "https://{}.crevado.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "crowdin": {
+      "url": "https://crowdin.com/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "d3ru": {
+      "url": "https://d3.ru/user/{}/posts",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "dailykos": {
+      "url": "https://www.dailykos.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "dailymotion": {
+      "url": "https://www.dailymotion.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "datingru": {
+      "url": "http://dating.ru/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "dev community": {
+      "url": "https://dev.to/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "devientart": {
+      "url": "https://{}.deviantart.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "devrant": {
+      "url": "https://devrant.com/users/{}",
+      "verification-method": "url",
+      "verification-target": "/users/",
+      "headers": {},
+      "cookies": {}
+    },
+    "discogs": {
+      "url": "https://www.discogs.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "discuss.elastic.co": {
+      "url": "https://discuss.elastic.co/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "disqus": {
+      "url": "https://disqus.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "dockerhub": {
+      "url": "https://hub.docker.com/u/{}/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "dribble": {
+      "url": "https://dribbble.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "drive2": {
+      "url": "https://www.drive2.ru/users/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "dlive": {
+      "url": "https://dlive.tv/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "duolingo": {
+      "url": "https://www.duolingo.com/profile/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "elpha": {
+      "url": "https://elpha.com/members/{}?tab=about",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {
+        "G_ENABLED_IDPS": "google",
+        "sess": "NWp2MU9FTTZnN3NORmEwMXFyUmZSaFIvZHpUWGxqSG04T0oxbHQwS3lGL3ZMNFEvWVZ3eERuZGVVeDI5M3F2bS0tVnFBR2hnTjJXcXcySER2b1VrWGhKZz09--a29f8023286249e4136c5059b96c930b82524413",
+        "_span_session": "NEJGM2dGeHpSY1ptRm5PYmZVNG4yN1RjS1FoSnZlNnprWHR0bklmMjFMWnpZbVJRNUxUdFMvWU1wVzRsRjBPLzN5dW5YZUZZd1lzL2JpTGZSWjcwK1h6TmRDN1pOTmw3bXorOGdvNGdYNjlDVjFZODJEYWg3anJLY01SNDlDUlJWRHRUeDJrVU1KdjJyQWYxTkR6SGVBPT0tLTBQTjkySTd1Y3d3b3B0OEpTb1Era0E9PQ%3D%3D--3c94ba5bcff0b5b62803f1c14a058492ba211534"
+      }
+    },
+    "egpu": {
+      "url": "https://egpu.io/forums/profile/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "eintracht": {
+      "url": "https://community.eintracht.de/fans/{}/freundschaften",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ello": {
+      "url": "https://ello.co/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "etsy": {
+      "url": "https://www.etsy.com/shop/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ebay": {
+      "url": "https://www.ebay.com/usr/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "euw": {
+      "url": "https://euw.op.gg/summoner/userName={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "eyeem": {
+      "url": "https://www.eyeem.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "f3.cool": {
+      "url": "https://f3.cool/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "fandom": {
+      "url": "https://www.fandom.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "fiverr": {
+      "url": "https://www.fiverr.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "fixya": {
+      "url": "https://www.fixya.com/users/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "fl": {
+      "url": "https://www.fl.ru/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "flickr": {
+      "url": "https://www.flickr.com/people/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "flightradar24": {
+      "url": "https://my.flightradar24.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "flipboard": {
+      "url": "https://flipboard.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "fortnitetracker": {
+      "url": "https://fortnitetracker.com/profile/all/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "forum_guns": {
+      "url": "https://forum.guns.ru/forummisc/blog/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "forumhouseru": {
+      "url": "https://www.forumhouse.ru/members/?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "fosstodon": {
+      "url": "https://fosstodon.org/@{}",
+      "verification-method": "status",
+      "verification-target": "410",
+      "headers": {},
+      "cookies": {}
+    },
+    "freelance.habr": {
+      "url": "https://freelance.habr.com/freelancers/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "freelancer": {
+      "url": "https://www.freelancer.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "freesound": {
+      "url": "https://freesound.org/people/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gaiaonline": {
+      "url": "https://www.gaiaonline.com/profiles/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "gamespot": {
+      "url": "https://www.gamespot.com/profile/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "geocaching": {
+      "url": "https://www.geocaching.com/p/default.aspx?u={}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gfycat": {
+      "url": "https://gfycat.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "giphy": {
+      "url": "https://giphy.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gitee": {
+      "url": "https://gitee.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
     "github": {
-        "url": "https://www.github.com/{}",
-        "verification-method": "status",
-        "verification-target": 200,
-        "cookies": {},
-        "headers": {}
+      "url": "https://www.github.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "github support community": {
+      "url": "https://github.community/u/{}/summary",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gitlab": {
+      "url": "https://gitlab.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "goodreads": {
+      "url": "https://www.goodreads.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gradle": {
+      "url": "https://plugins.gradle.org/u/{}/summary",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gravatar": {
+      "url": "http://en.gravatar.com/{}.json",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gumroad": {
+      "url": "https://www.gumroad.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gunsandammo": {
+      "url": "https://forums.gunsandammo.com/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "gurushots": {
+      "url": "https://gurushots.com/{}/photos",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "habr": {
+      "url": "https://career.habr.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hackaday": {
+      "url": "https://hackaday.io/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hackerearth": {
+      "url": "https://hackerearth.com/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "hackernews": {
+      "url": "https://news.ycombinator.com/user?id={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "hackerone": {
+      "url": "https://hackerone.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hackerrank": {
+      "url": "https://hackerrank.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "hackster": {
+      "url": "https://www.hackster.io/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hackthebox": {
+      "url": "https://forum.hackthebox.eu/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hexrpg": {
+      "url": "https://www.hexrpg.com/userinfo/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "houzz": {
+      "url": "https://houzz.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hubpages": {
+      "url": "https://hubpages.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "hubski": {
+      "url": "https://hubski.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "hunting": {
+      "url": "https://www.hunting.ru/forum/members/?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "icave": {
+      "url": "https://odysee.com/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "influenster": {
+      "url": "https://www.influenster.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "inkedfur": {
+      "url": "https://inkedfur.com/{}/profile",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ifttt": {
+      "url": "https://www.ifttt.com/p/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "igromania": {
+      "url": "http://forum.igromania.ru/member.php?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "imgsrc.ru": {
+      "url": "https://imgsrc.ru/main/user.php?user={}",
+      "verification-method": "url",
+      "verification-target": "/main/user",
+      "headers": {},
+      "cookies": {}
+    },
+    "imgup.cz": {
+      "url": "https://imgup.cz/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "imgur": {
+      "url": "https://imgur.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "instructables": {
+      "url": "https://www.instructables.com/member/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "interpals": {
+      "url": "https://www.interpals.net/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "irecommend": {
+      "url": "https://irecommend.ru/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "issuu": {
+      "url": "https://issuu.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "itch.io": {
+      "url": "https://{}.itch.io/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "itemfix": {
+      "url": "https://www.itemfix.com/c/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "jbzd.com.pl": {
+      "url": "https://jbzd.com.pl/uzytkownik/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "jellyfin weblate": {
+      "url": "https://translate.jellyfin.org/user/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "juexvideo": {
+      "url": "http://www.jeuxvideo.com/profil/{}?mode=infos",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "kaggle": {
+      "url": "https://www.kaggle.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "keybase": {
+      "url": "https://keybase.io/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "kik": {
+      "url": "https://kik.me/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "kofi": {
+      "url": "https://ko-fi.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "kongregate": {
+      "url": "https://www.kongregate.com/accounts/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "kwork": {
+      "url": "https://kwork.ru/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "labpentestit": {
+      "url": "https://lab.pentestit.ru/profile/{}",
+      "verification-method": "url",
+      "verification-target": "/profile/",
+      "headers": {},
+      "cookies": {}
+    },
+    "last.fm": {
+      "url": "https://last.fm/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "launchpad": {
+      "url": "https://launchpad.net/~{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "leasehackr": {
+      "url": "https://forum.leasehackr.com/u/{}/summary/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "leetcode": {
+      "url": "https://leetcode.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "letterboxd": {
+      "url": "https://letterboxd.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "lichess": {
+      "url": "https://lichess.org/@/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "linktree": {
+      "url": "https://linktr.ee/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "likee": {
+      "url": "https://likee.video/@{}?lang=en",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "livejournal": {
+      "url": "https://{}.livejournal.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "livelib": {
+      "url": "https://www.livelib.ru/reader/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "lobsters": {
+      "url": "https://lobste.rs/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "lolchess": {
+      "url": "https://lolchess.gg/profile/na/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "lor": {
+      "url": "https://www.linux.org.ru/people/{}/profile",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mastodon.cloud": {
+      "url": "https://mastodon.cloud/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mastodon.social": {
+      "url": "https://mastodon.social/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mastodon.technology": {
+      "url": "https://mastodon.technology/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mastodon.xyz": {
+      "url": "https://mastodon.xyz/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "medium": {
+      "url": "https://medium.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "memrise": {
+      "url": "https://www.memrise.com/user/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mercadolive": {
+      "url": "https://www.mercadolivre.com.br/perfil/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "metacritic": {
+      "url": "https://www.metacritic.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "mixcloud": {
+      "url": "https://www.mixcloud.com/{}/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "moikrug": {
+      "url": "https://moikrug.ru/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mstdn.io": {
+      "url": "https://mstdn.io/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "munzee": {
+      "url": "https://www.munzee.com/m/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "myanimelist": {
+      "url": "https://myanimelist.net/profile/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "myminifactory": {
+      "url": "https://www.myminifactory.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "myspace": {
+      "url": "https://myspace.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "nairaland.com": {
+      "url": "https://www.nairaland.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "nationstates nation": {
+      "url": "https://nationstates.net/nation={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "nationstates region": {
+      "url": "https://nationstates.net/region={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "nextcloud forums": {
+      "url": "https://help.nextcloud.com/u/{}/summary",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "newgrounds": {
+      "url": "https://{}.newgrounds.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "nicommunity forum": {
+      "url": "https://www.native-instruments.com/forum/members?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "nightbot": {
+      "url": "https://nightbot.tv/t/{}/commands",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "ninja kiwi": {
+      "url": "https://ninjakiwi.com/profile/{}",
+      "verification-method": "url",
+      "verification-target": "/profile/",
+      "headers": {},
+      "cookies": {}
+    },
+    "nnru": {
+      "url": "https://{}.www.nn.ru/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "notabug.org": {
+      "url": "https://notabug.org/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "note": {
+      "url": "https://note.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "npm": {
+      "url": "https://www.npmjs.com/~{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "nyaa.si": {
+      "url": "https://nyaa.si/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ok": {
+      "url": "https://ok.ru/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "onlyfans": {
+      "url": "https://onlyfans.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "opennet": {
+      "url": "https://www.opennet.ru/~{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "opensource": {
+      "url": "https://opensource.com/users/{}",
+      "verification-method": "status",
+      "verification-target": "403",
+      "headers": {},
+      "cookies": {}
+    },
+    "openstreetmap": {
+      "url": "https://www.openstreetmap.org/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "osu!": {
+      "url": "https://osu.ppy.sh/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ourdjtalk": {
+      "url": "https://ourdjtalk.com/members?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "packagist": {
+      "url": "https://packagist.org/packages/{}/",
+      "verification-method": "url",
+      "verification-target": "/packages",
+      "headers": {},
+      "cookies": {}
+    },
+    "pastebin": {
+      "url": "https://pastebin.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "patreon": {
+      "url": "https://www.patreon.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pcgamer": {
+      "url": "https://forums.pcgamer.com/members/?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "pikabu": {
+      "url": "https://pikabu.ru/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pcpartpicker": {
+      "url": "https://pcpartpicker.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "periscope": {
+      "url": "https://www.periscope.tv/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "phpru": {
+      "url": "https://php.ru/forum/members/?username={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "paypal": {
+      "url": "https://www.paypal.com/paypalme/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "pinkbike": {
+      "url": "https://www.pinkbike.com/u/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pinterest": {
+      "url": "https://www.pinterest.com/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pixilart": {
+      "url": "https://www.pixilart.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pokemon showdown": {
+      "url": "https://pokemonshowdown.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "polarsteps": {
+      "url": "https://polarsteps.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "polygon": {
+      "url": "https://www.polygon.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "pr0gramm": {
+      "url": "https://pr0gramm.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "prog.hu": {
+      "url": "https://prog.hu/azonosito/info/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "promodj": {
+      "url": "http://promodj.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "psnprofiles.com": {
+      "url": "https://psnprofiles.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "pypi": {
+      "url": "https://pypi.org/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "quizlet": {
+      "url": "https://quizlet.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "rajce.net": {
+      "url": "https://{}.rajce.idnes.cz/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "redbubble": {
+      "url": "https://www.redbubble.com/people/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "reddit": {
+      "url": "https://www.reddit.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "replit.com": {
+      "url": "https://replit.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "roblox": {
+      "url": "https://www.roblox.com/user.aspx?username={}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "reverbnation": {
+      "url": "https://www.reverbnation.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "rubygems": {
+      "url": "https://rubygems.org/profiles/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "runescape": {
+      "url": "https://apps.runescape.com/runemetrics/profile/profile?user={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "satsisru": {
+      "url": "https://satsis.info/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "snapchat": {
+      "url": "https://www.snapchat.com/add/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "sbazar.cz": {
+      "url": "https://www.sbazar.cz/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "scratch": {
+      "url": "https://scratch.mit.edu/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "scribd": {
+      "url": "https://www.scribd.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "shitpostbot5000": {
+      "url": "https://www.shitpostbot.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "slack": {
+      "url": "https://{}.slack.com",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "slashdot": {
+      "url": "https://slashdot.org/~{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "slideshare": {
+      "url": "https://slideshare.net/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "smule": {
+      "url": "https://www.smule.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "social.tchncs.de": {
+      "url": "https://social.tchncs.de/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "soundcloud": {
+      "url": "https://soundcloud.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "sourceforge": {
+      "url": "https://sourceforge.net/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "soylentnews": {
+      "url": "https://soylentnews.org/~{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "speedrun.com": {
+      "url": "https://speedrun.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "splits.io": {
+      "url": "https://splits.io/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "sporcle": {
+      "url": "https://www.sporcle.com/user/{}/people",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "sportsru": {
+      "url": "https://www.sports.ru/profile/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "spotify": {
+      "url": "https://open.spotify.com/user/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "star citizen": {
+      "url": "https://robertsspaceindustries.com/citizens/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "steam": {
+      "url": "https://steamcommunity.com/id/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "steamgroup": {
+      "url": "https://steamcommunity.com/groups/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "steemit": {
+      "url": "https://steemit.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "strava": {
+      "url": "https://www.strava.com/athletes/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "sublimeforum": {
+      "url": "https://forum.sublimetext.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "telegram": {
+      "url": "https://t.me/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "tenor": {
+      "url": "https://tenor.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "tellonym.me": {
+      "url": "https://tellonym.me/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "tetr.io": {
+      "url": "https://ch.tetr.io/u/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "tiktok": {
+      "url": "https://tiktok.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "tinder": {
+      "url": "https://www.gotinder.com/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "tldr legal": {
+      "url": "https://tldrlegal.com/users/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "trovo": {
+      "url": "https://trovo.live/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "triller": {
+      "url": "https://triller.co/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "tradingview": {
+      "url": "https://www.tradingview.com/u/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "trakt": {
+      "url": "https://www.trakt.tv/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "trashboxru": {
+      "url": "https://trashbox.ru/users/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "trello": {
+      "url": "https://trello.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "tryhackme": {
+      "url": "https://tryhackme.com/p/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "twitch": {
+      "url": "https://www.twitch.tv/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "twitter": {
+      "url": "https://twitter.com/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "typeracer": {
+      "url": "https://data.typeracer.com/pit/profile?user={}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "uid": {
+      "url": "http://uid.me/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "ultimate-guitar": {
+      "url": "https://ultimate-guitar.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "unsplash": {
+      "url": "https://unsplash.com/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "venmo": {
+      "url": "https://venmo.com/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "vero": {
+      "url": "https://vero.co/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "virgool": {
+      "url": "https://virgool.io/@{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "vsco": {
+      "url": "https://vsco.co/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "warrior forum": {
+      "url": "https://www.warriorforum.com/members/{}.html",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "we heart it": {
+      "url": "https://weheartit.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "weblate": {
+      "url": "https://hosted.weblate.org/user/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "whonix forum": {
+      "url": "https://forums.whonix.org/u/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "wikidot": {
+      "url": "http://www.wikidot.com/user:info/{}",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "wikipedia": {
+      "url": "https://en.wikipedia.org/wiki/Special:CentralAuth/{}?uselang=qqx",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "windy": {
+      "url": "https://community.windy.com/user/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "wordpress": {
+      "url": "https://{}.wordpress.com/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "wordpressorg": {
+      "url": "https://profiles.wordpress.org/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "wordnik": {
+      "url": "https://www.wordnik.com/users/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+      },
+      "cookies": {}
+    },
+    "younow": {
+      "url": "https://www.younow.com/{}/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "youpic": {
+      "url": "https://youpic.com/photographer/{}/",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "youtube - official": {
+      "url": "https://www.youtube.com/c/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "zhihu": {
+      "url": "https://www.zhihu.com/people/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "r6.tracker.network : playstation": {
+      "url": "https://r6.tracker.network/profile/psn/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "r6.tracker.network : pc": {
+      "url": "https://r6.tracker.network/profile/pc/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "rocketleage.tracker": {
+      "url": "https://rocketleague.tracker.network/rocket-league/profile/epic/{}/overview",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "halotracker.com": {
+      "url": "https://halotracker.com/halo-infinite/profile/xbl/{}/overview?experience=ranked&playlist=f7eb8c71-fedb-4696-8c0f-96025e285ffd",
+      "verification-method": "status",
+      "verification-target": "400",
+      "headers": {},
+      "cookies": {}
+    },
+    "tracker.gg LoL [NA]": {
+      "url": "https://tracker.gg/lol/profile/riot/NA/{}/overview",
+      "verification-method": "status",
+      "verification-target": "400",
+      "headers": {},
+      "cookies": {}
+    },
+    "tracker.gg LoL [SA]": {
+      "url": "https://tracker.gg/lol/profile/riot/LAN/{}/overview",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "clapperapp": {
+      "url": "https://clapperapp.com/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "fansly": {
+      "url": "https://fansly.com/{}/posts",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "manyvids": {
+      "url": "https://www.manyvids.com/Profile/1004626158/{}/Store/Videos/",
+      "verification-method": "match",
+      "verification-target": "",
+      "headers": {},
+      "cookies": {}
+    },
+    "iconscout": {
+      "url": "https://iconscout.com/contributors/{}",
+      "verification-method": "url",
+      "verification-target": "contributors/",
+      "headers": {},
+      "cookies": {}
+    },
+    "pronouns.page": {
+      "url": "https://en.pronouns.page/@{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
+    },
+    "mtgsalvation": {
+      "url": "https://www.mtgsalvation.com/members/{}",
+      "verification-method": "status",
+      "verification-target": 200,
+      "headers": {},
+      "cookies": {}
     }
-}
+  }
