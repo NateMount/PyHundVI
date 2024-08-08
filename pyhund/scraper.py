@@ -1,8 +1,9 @@
 # [PyHund:Scraper]
 
 import re
+import threading
 
-from requests import get
+from requests import get, ConnectionError
 
 from pyhund import SITE_METADATA
 
@@ -17,23 +18,29 @@ class ScraperInstance:
         List Scan
         Performs scan for each entry into the list
         """
+        try:
+            for site_name in self.site_index:
 
-        for site_name in self.site_index:
+                site_data:dict = SITE_METADATA[site_name]
 
-            site_data:dict = SITE_METADATA[site_name]
+                headers:dict = site_data["headers"] 
+                cookies:dict = site_data["cookies"]
 
-            headers:dict = site_data["headers"] 
-            cookies:dict = site_data["cookies"]
+                for username in usernames:
+                    if not username: continue
 
-            for username in usernames:
-                if not username: continue
+                    try:
+                        site_content = get(site_data["url"].format(username), headers=headers, cookies=cookies)
+                    except ConnectionError:
+                        print(f"[{site_name}:!!!]:: Bad Connection")
+                        continue
+                    if not self.verify(site_name, site_content):
+                        if not self.no_err: print(f"[{site_name}:{username}]:: Not Found")
+                        continue
 
-                site_content = get(site_data["url"].format(username), headers=headers, cookies=cookies)
-                if not self.verify(site_name, site_content):
-                    if not self.no_err: print(f"[{site_name}:{username}]:: Not Found")
-                    continue
-
-                print(f"[{site_name}:{username}]:: {site_data['url'].format(username)}")
+                    print(f"[{site_name}:{username}]:: {site_data['url'].format(username)}")
+        except KeyboardInterrupt:
+            print("Terminated")
     
 
     def verify(self, site_name:str, site_data:object) -> bool:
@@ -54,4 +61,19 @@ class ScraperInstance:
                 return True
     
     def threaded_scan(self, usernames:list[str], n_threads:int = 2) -> None:
-        return NotImplemented
+        
+        if len(usernames) < n_threads:
+            self.list_scan(usernames=usernames); return
+        
+        pivot:int = len(usernames) // n_threads
+        spill:int = -1 * (len(usernames) % n_threads)
+        
+        threads = [
+            threading.Thread(target=self.list_scan, args=(usernames[pivot * i:pivot * (i + 1)],))
+            for i in range(n_threads - 1)
+        ]
+
+        threads.append(threading.Thread(target=self.list_scan, args=(usernames[spill:],)))
+
+        [thread.start() for thread in threads]
+        [thread.join() for thread in threads]
